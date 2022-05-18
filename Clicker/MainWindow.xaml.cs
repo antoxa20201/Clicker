@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Threading;
 
 namespace Clicker
 {
@@ -23,6 +24,27 @@ namespace Clicker
         public MainWindow()
         {
             InitializeComponent();
+        }
+        public int click = 0;
+
+        private void timer_Tick(object sender, EventArgs e)
+        {
+            click++;
+            click_Counter.Text = click.ToString();
+        }
+
+        private void Click_Botton_Click(object sender, RoutedEventArgs e)
+        {
+            click++;
+            click_Counter.Text = click.ToString();
+        }
+
+        private void timer_Click(object sender, RoutedEventArgs e)
+        {
+            DispatcherTimer timer = new DispatcherTimer();
+            timer.Tick += new EventHandler(timer_Tick);
+            timer.Interval = new TimeSpan(0, 0, 1);
+            timer.Start();
         }
     }
 }
