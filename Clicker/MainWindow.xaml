@@ -7,8 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="parallax-demon-woods-bg.gif"/>
+        </Grid.Background>
         <Button x:Name="click_Botton" Content="" HorizontalAlignment="Left" Margin="301,126,0,0" VerticalAlignment="Top" Width="178" Height="184" Click="Click_Botton_Click"/>
-        <TextBlock x:Name="click_Counter" HorizontalAlignment="Left" Margin="301,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="22" Width="178" Text="0" TextAlignment="Center"/>
+        <TextBlock x:Name="click_Counter" HorizontalAlignment="Left" Margin="301,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="22" Width="178" Text="0" TextAlignment="Center" Foreground="White"/>
         <Button x:Name="timer" Content="TIMER" HorizontalAlignment="Left" Margin="544,208,0,0" VerticalAlignment="Top" Width="75" Click="timer_Click"/>
 
     </Grid>

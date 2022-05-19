@@ -27,6 +27,12 @@ namespace Clicker
         }
         public int click = 0;
 
+        public int RND(int n)
+        {
+            Random random = new Random();
+            return random.Next(1, n + 1);
+        }
+
         private void timer_Tick(object sender, EventArgs e)
         {
             click++;
