@@ -143,5 +143,17 @@
   <ItemGroup>
     <Resource Include="Картинки\mf4jfrq.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Картинки\MyPictures\parallax-demon-woods-bg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Картинки\MyPictures\UI_orange_buttons_light_3.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Картинки\MyPictures\UI_orange_buttons_light_4.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Картинки\MyPictures\UI_orange_buttons_light_5.ico" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
