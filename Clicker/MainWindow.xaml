@@ -8,17 +8,31 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="812">
     <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Картинки/MyPictures/parallax-demon-woods-bg.jpg"/>
+        </Grid.Background>
         <TextBlock x:Name="click_Counter" Margin="301,79,325,318" TextWrapping="Wrap" Text="0" TextAlignment="Center"/>
-        <Image Height="70" Width="70" Margin="289,349,445,0" Source="Картинки/gold-coins-on-open-full-bag-isolated-on-white_135176-16.jpg" />
-        <TextBox  Height="30" Width="70" Text="Магазин" x:Name="tshop" Margin="289,318,445,71" FontSize="14" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" BorderBrush="White" IsEnabled="False" />
-        <Button x:Name="openmenu" FontSize ="25" Content="" Background="White" Click="openmenu_Click" Margin="289,318,440,0" Opacity="0"/>
-        <Image Height="70" Width="70" Margin="397,349,337,0" Source="Картинки/mf4jfrq.jpg" />
-        <TextBox Height="30" Margin="397,318,337,71" Text="Достижения" BorderBrush="White" VerticalContentAlignment="Center" FontSize="11" IsEnabled="False"/>
-        <Button Height="105" Width="75" Margin="397,318,332,-4" Background="White" x:Name="machivment" Content="" FontSize="20" Opacity="0" Click="machivment_Click"/>
         <Ellipse Margin="312,140,352,139" Stroke="White" MouseDown="Ellipse_MouseDown">
             <Ellipse.Fill>
                 <ImageBrush ImageSource="Картинки/png-transparent-infographic-chart-food-cookie-infographic-3d-computer-graphics-brown.png"/>
             </Ellipse.Fill>
         </Ellipse>
+        <ToolBar HorizontalAlignment="Left" Height="30" Margin="10,10,0,0" VerticalAlignment="Top" Width="99">
+            <Button x:Name="openmenu1" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="25" Height="25" Click="openmenu_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="Картинки/MyPictures/UI_orange_buttons_light_4.ico"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="machivment1" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="25" Height="25" Click="machivment_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="Картинки/MyPictures/UI_orange_buttons_light_3.ico"/>
+                </Button.Background>
+            </Button>
+            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="25" Height="25">
+                <Button.Background>
+                    <ImageBrush ImageSource="Картинки/MyPictures/UI_orange_buttons_light_5.ico"/>
+                </Button.Background>
+            </Button>
+        </ToolBar>
     </Grid>
 </Window>

@@ -144,7 +144,16 @@
     <Resource Include="Картинки\mf4jfrq.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Картинки\kisspng-question-mark-computer-icons-clip-art-5afe5eb496bb29.8997087915266198286174.jpg" />
+    <Resource Include="Картинки\MyPictures\parallax-demon-woods-bg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Картинки\MyPictures\UI_orange_buttons_light_3.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Картинки\MyPictures\UI_orange_buttons_light_4.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Картинки\MyPictures\UI_orange_buttons_light_5.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
