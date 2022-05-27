@@ -7,18 +7,56 @@
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen"
         Loaded="ach_loaded"
-        Title="achivment" Height="372.717" Width="545.217">
-    <Grid Margin="0,0,-8,-2">
+        Title="achivment" Height="372.717" Width="595.884">
+    <Grid Margin="0,0,2,-2">
         <Grid HorizontalAlignment="Left" Height="133" Margin="22,10,0,0" VerticalAlignment="Top" Width="120" Background="Honeydew" >
-            <Button x:Name="ach1" Opacity="0" Click="ach1_Click"/>
-            <Image Margin="19,43,21,10"  Height="80" Width="80"/>
+            <Image Margin="19,43,21,10"  Height="80" Width="80" />
             <TextBox Margin="5,3,5,98" x:Name="nm1" FontSize="10"/>
+            <Button x:Name="ach1" Opacity="0" Click="ach1_Click"/>
         </Grid>
-        <Grid HorizontalAlignment="Left" Height="133" Margin="22,10,0,0" VerticalAlignment="Top" Width="120" Background="Honeydew" >
-            <Button x:Name="ach2" Opacity="0" Click="ach1_Click"/>
+        <Grid HorizontalAlignment="Left" Height="133" Margin="160,10,0,0" VerticalAlignment="Top" Width="120" Background="Honeydew" >
             <Image Margin="19,43,21,10"  Height="80" Width="80"/>
             <TextBox Margin="5,3,5,98" x:Name="nm2" FontSize="10"/>
+            <Button x:Name="ach2" Opacity="0" Click="ach2_Click"/>
         </Grid>
+        <Grid HorizontalAlignment="Left" Height="133" Margin="304,10,0,0" VerticalAlignment="Top" Width="120" Background="Honeydew" >
+            <Image Margin="19,43,21,10"  Height="80" Width="80"/>
+            <TextBox Margin="5,3,5,98" x:Name="nm3" FontSize="10"/>
+            <Button x:Name="ach3" Opacity="0" Click="ach3_Click"/>
+        </Grid>
+        <Grid HorizontalAlignment="Left" Height="133" Margin="448,10,0,0" VerticalAlignment="Top" Width="120" Background="Honeydew" >
+            <Image Margin="19,43,21,10"  Height="80" Width="80"/>
+            <TextBox Margin="5,3,5,98" x:Name="nm4" FontSize="10"/>
+            <Button x:Name="ach4" Opacity="0" Click="ach4Click"/>
+        </Grid>
+        <Grid HorizontalAlignment="Left" Height="133" Margin="22,160,0,0" VerticalAlignment="Top" Width="120" Background="Honeydew" >
+            <Image Margin="19,43,21,10"  Height="80" Width="80"/>
+            <TextBox Margin="5,3,5,98" x:Name="nm5" FontSize="10"/>
+            <Button x:Name="ach5" Opacity="0" Click="ach5_Click"/>
+        </Grid>
+        <Grid HorizontalAlignment="Left" Height="133" Margin="160,160,0,0" VerticalAlignment="Top" Width="120" Background="Honeydew" >
+            <Image Margin="19,43,21,10"  Height="80" Width="80"/>
+            <TextBox Margin="5,3,5,98" x:Name="nm6" FontSize="10"/>
+            <Button x:Name="ach6" Opacity="0" Click="ach6_Click"/>
+        </Grid>
+        <Grid HorizontalAlignment="Left" Height="133" Margin="304,160,0,0" VerticalAlignment="Top" Width="120" Background="Honeydew" >
+            <Image Margin="19,43,21,10"  Height="80" Width="80"/>
+            <TextBox Margin="5,3,5,98" x:Name="nm7" FontSize="10"/>
+            <Button x:Name="ach7" Opacity="0" Click="ach7_Click"/>
+        </Grid>
+        <Grid HorizontalAlignment="Left" Height="133" Margin="448,160,0,0" VerticalAlignment="Top" Width="120" Background="Honeydew" >
+            <Image Margin="19,43,21,10"  Height="80" Width="80"/>
+            <TextBox Margin="5,3,5,98" x:Name="nm8" FontSize="10"/>
+            <Button x:Name="ach8" Opacity="0" Click="ach8_Click"/>
+        </Grid>
+        <Image x:Name="zap1" HorizontalAlignment="Left" Height="133" Margin="22,10,0,0" VerticalAlignment="Top" Width="120" />
+        <Image x:Name="zap2" HorizontalAlignment="Left" Height="133" Margin="160,10,0,0" VerticalAlignment="Top" Width="120" />
+        <Image x:Name="zap5" HorizontalAlignment="Left" Height="133" Margin="22,160,0,0" VerticalAlignment="Top" Width="120" />
+        <Image x:Name="zap6" HorizontalAlignment="Left" Height="133" Margin="160,160,0,0" VerticalAlignment="Top" Width="120" />
+        <Image x:Name="zap3" HorizontalAlignment="Left" Height="133" Margin="304,10,0,0" VerticalAlignment="Top" Width="120" />
+        <Image x:Name="zap7" HorizontalAlignment="Left" Height="133" Margin="304,160,0,0" VerticalAlignment="Top" Width="120" />
+        <Image x:Name="zap4" HorizontalAlignment="Left" Height="133" Margin="448,10,0,0" VerticalAlignment="Top" Width="120" />
+        <Image x:Name="zap8" HorizontalAlignment="Left" Height="133" Margin="448,160,0,0" VerticalAlignment="Top" Width="120" />
 
 
     </Grid>
