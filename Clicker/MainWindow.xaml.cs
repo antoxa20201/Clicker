@@ -35,7 +35,7 @@ namespace Clicker
         
         internal int sum = 0;
         internal int n = 1;
-        internal int t = 1;
+        internal int t = 0;
         internal int plus = 1;
         internal int sclick1 = 10;
         internal int sclick2 = 100;
