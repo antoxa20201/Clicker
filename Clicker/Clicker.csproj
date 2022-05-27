@@ -155,5 +155,17 @@
   <ItemGroup>
     <Resource Include="Картинки\MyPictures\UI_orange_buttons_light_5.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Картинки\MyPictures\release_v1.2-single_10.png" />
+    <Resource Include="Картинки\MyPictures\release_v1.2-single_11.png" />
+    <Resource Include="Картинки\MyPictures\release_v1.2-single_12.png" />
+    <Resource Include="Картинки\MyPictures\release_v1.2-single_13.png" />
+    <Resource Include="Картинки\MyPictures\release_v1.2-single_14.png" />
+    <Resource Include="Картинки\MyPictures\release_v1.2-single_15.png" />
+    <Resource Include="Картинки\MyPictures\release_v1.2-single_6.png" />
+    <Resource Include="Картинки\MyPictures\release_v1.2-single_7.png" />
+    <Resource Include="Картинки\MyPictures\release_v1.2-single_8.png" />
+    <Resource Include="Картинки\MyPictures\release_v1.2-single_9.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
