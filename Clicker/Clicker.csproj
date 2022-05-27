@@ -55,20 +55,48 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="achivment.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="achivment1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="magas.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Compile Include="achivment.xaml.cs">
+      <DependentUpon>achivment.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="achivment1.xaml.cs">
+      <DependentUpon>achivment1.xaml</DependentUpon>
+    </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="magas.xaml.cs">
+      <DependentUpon>magas.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="menu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="menu.xaml.cs">
+      <DependentUpon>menu.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -93,6 +121,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Картинки\png-transparent-red-cross-error-crossed-wrong-incorrect-marking-symbol-sign.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Картинки\1612330450_143-p-fon-shokoladnaya-kroshka-257.jpg" />
+    <Resource Include="Картинки\kisspng-chocolate-chip-cookie-cupcake-fortune-cookie-oatme-cookie-5abd747c895034.6764662815223655645625.jpg" />
+    <Resource Include="Картинки\png-transparent-brown-chocolate-chip-cookie-illustration-oatmeal-cookie-chocolate-chip-cookie-biscuits-cookie-s-food-head-cartoon.png" />
+    <Resource Include="Картинки\png-transparent-infographic-chart-food-cookie-infographic-3d-computer-graphics-brown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="kisspng_no_sy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Картинки\kisspng_no_sy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Картинки\gold-coins-on-open-full-bag-isolated-on-white_135176-16.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Картинки\mf4jfrq.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
