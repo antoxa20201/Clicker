@@ -48,17 +48,17 @@ namespace Clicker
         internal int times4 = 1000;
         internal int times5 = 5000;
 
-        internal int clvl1 = 1;
-        internal int clvl2 = 1;
-        internal int clvl3 = 1;
-        internal int clvl4 = 1;
-        internal int clvl5 = 1;
+        internal int clvl1 = 0;
+        internal int clvl2 = 0;
+        internal int clvl3 = 0;
+        internal int clvl4 = 0;
+        internal int clvl5 = 0;
 
-        internal int tlvl1 = 1;
-        internal int tlvl2 = 1;
-        internal int tlvl3 = 1;
-        internal int tlvl4 = 1;
-        internal int tlvl5 = 1;
+        internal int tlvl1 = 0;
+        internal int tlvl2 = 0;
+        internal int tlvl3 = 0;
+        internal int tlvl4 = 0;
+        internal int tlvl5 = 0;
 
 
 

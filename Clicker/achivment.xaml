@@ -49,14 +49,7 @@
             <TextBox Margin="5,3,5,98" x:Name="nm8" FontSize="10"/>
             <Button x:Name="ach8" Opacity="0" Click="ach8_Click"/>
         </Grid>
-        <Image x:Name="zap1" HorizontalAlignment="Left" Height="133" Margin="22,10,0,0" VerticalAlignment="Top" Width="120" />
-        <Image x:Name="zap2" HorizontalAlignment="Left" Height="133" Margin="160,10,0,0" VerticalAlignment="Top" Width="120" />
-        <Image x:Name="zap5" HorizontalAlignment="Left" Height="133" Margin="22,160,0,0" VerticalAlignment="Top" Width="120" />
-        <Image x:Name="zap6" HorizontalAlignment="Left" Height="133" Margin="160,160,0,0" VerticalAlignment="Top" Width="120" />
-        <Image x:Name="zap3" HorizontalAlignment="Left" Height="133" Margin="304,10,0,0" VerticalAlignment="Top" Width="120" />
-        <Image x:Name="zap7" HorizontalAlignment="Left" Height="133" Margin="304,160,0,0" VerticalAlignment="Top" Width="120" />
-        <Image x:Name="zap4" HorizontalAlignment="Left" Height="133" Margin="448,10,0,0" VerticalAlignment="Top" Width="120" />
-        <Image x:Name="zap8" HorizontalAlignment="Left" Height="133" Margin="448,160,0,0" VerticalAlignment="Top" Width="120" />
+        
 
 
     </Grid>
