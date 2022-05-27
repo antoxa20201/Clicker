@@ -143,5 +143,8 @@
   <ItemGroup>
     <Resource Include="Картинки\mf4jfrq.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Картинки\kisspng-question-mark-computer-icons-clip-art-5afe5eb496bb29.8997087915266198286174.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

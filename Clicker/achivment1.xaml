@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Clicker"
         mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
         Title="achivment1" Height="300" Width="300">
     <Grid>
         <TextBox x:Name="info" Margin="10,59,10,10"/>
