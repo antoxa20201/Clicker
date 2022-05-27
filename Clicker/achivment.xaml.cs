@@ -34,7 +34,7 @@ namespace Clicker
             nm6.Text = "Ленивый" + "\n" + "Пекарь";
             nm7.Text = "Плотный" + "\n" + "закуп";
             nm8.Text = "Начало";
-            if (((MainWindow)Application.Current.MainWindow).sum >= 10000)
+            /*if (((MainWindow)Application.Current.MainWindow).sum >= 10000)
             {
                 zap1.Visibility = Visibility.Hidden;
             }
@@ -65,7 +65,7 @@ namespace Clicker
             if (((MainWindow)Application.Current.MainWindow).sum >= 1)
             {
                 zap8.Visibility = Visibility.Hidden;
-            }
+            }*/
 
         }
         private void ach1_Click(object sender, RoutedEventArgs e)

@@ -29,8 +29,10 @@ namespace Clicker
             timer.Tick += new EventHandler(timer_Tick);
             timer.Interval = new TimeSpan(0, 0, 1);
             timer.Start();
+            
 
         }
+        internal MediaPlayer player = new MediaPlayer();
         public int click = 0;
         
         internal int sum = 0;
@@ -70,6 +72,7 @@ namespace Clicker
             click += t;
             sum += t;
             click_Counter.Text = click.ToString();
+            
         }
 
         
@@ -103,6 +106,22 @@ namespace Clicker
             click += n;
             sum += n;
             click_Counter.Text = click.ToString();
+        }
+
+        private void music_Click(object sender, RoutedEventArgs e)
+        {
+            settings srt = new settings();
+            srt.Title = "Settings";
+            srt.WindowStartupLocation = System.Windows.WindowStartupLocation.CenterScreen;
+            srt.Show();
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            player.Open(new Uri("Vishnu - Patrick Patrikios.mp3", UriKind.Relative));
+            player.Position = new TimeSpan(0, 0, 0, 0, 1);
+            player.Volume = 0.1;
+            player.Play();
         }
     }
 }
