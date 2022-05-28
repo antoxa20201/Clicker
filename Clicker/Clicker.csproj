@@ -176,6 +176,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Icelandic Arpeggios - DivKid.mp3" />
+    <Resource Include="Картинки\achivment\rpg_icons_v1.png" />
+    <Resource Include="Картинки\achivment\release_v1.2-single_86.png" />
+    <Resource Include="Картинки\achivment\release_v1.2-single_87.png" />
+    <Resource Include="Картинки\achivment\release_v1.2-single_88.png" />
+    <Resource Include="Картинки\achivment\release_v1.2-single_89.png" />
+    <Resource Include="Картинки\achivment\release_v1.2-single_92.png" />
+    <Resource Include="Картинки\achivment\release_v1.2-single_93.png" />
+    <Resource Include="Картинки\achivment\release_v1.2-single_94.png" />
+    <Resource Include="Картинки\achivment\release_v1.2-single_95.png" />
     <Resource Include="Картинки\MyPictures\UI_grey_buttons_pressed_1.png" />
     <Resource Include="Картинки\MyPictures\UI_grey_buttons_light_pressed_1.ico" />
     <Resource Include="Картинки\MyPictures\UI_orange_buttons_light_6.ico" />
