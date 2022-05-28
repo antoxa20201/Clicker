@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.IO;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -13,6 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Threading;
+
 
 namespace Clicker
 {
@@ -32,9 +34,12 @@ namespace Clicker
             
 
         }
+
         internal MediaPlayer player = new MediaPlayer();
         public int click = 0;
-        
+        public string saves = "SavesQ";
+
+
         internal int sum = 0;
         internal int n = 1;
         internal int t = 0;
@@ -62,10 +67,10 @@ namespace Clicker
         internal int tlvl4 = 0;
         internal int tlvl5 = 0;
 
-
-
-
-
+        internal string tr1 = "Vishnu - Patrick Patrikios.mp3";
+        internal string tr2 = "Icelandic Arpeggios - DivKid.mp3";
+        internal string tr3 = "Voices - Patrick Patrikios.mp3";
+        internal string tr4 = "We Bubbles - Freedom Trail Studio.mp3";
 
         private void timer_Tick(object sender, EventArgs e)
         {
@@ -74,10 +79,6 @@ namespace Clicker
             click_Counter.Text = click.ToString();
             
         }
-
-        
-
-   
 
         private void openmenu_Click(object sender, RoutedEventArgs e)
         {
@@ -95,10 +96,6 @@ namespace Clicker
             ach.WindowStartupLocation = System.Windows.WindowStartupLocation.CenterScreen;
             ach.Show();
 
-        }
-        private void menu_click(object sender, RoutedEventArgs e)
-        {
-          
         }
 
         private void Ellipse_MouseDown(object sender, MouseButtonEventArgs e)
@@ -118,10 +115,58 @@ namespace Clicker
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            player.Open(new Uri("Vishnu - Patrick Patrikios.mp3", UriKind.Relative));
+            player.Open(new Uri(tr1, UriKind.Relative));
             player.Position = new TimeSpan(0, 0, 0, 0, 1);
             player.Volume = 0.1;
             player.Play();
+            if (File.Exists(saves)){
+                using (var sr = new StreamReader(saves))
+                {
+                    click = Convert.ToInt32(sr.ReadLine());
+                    n = Convert.ToInt32(sr.ReadLine());
+                    t = Convert.ToInt32(sr.ReadLine());
+                    clvl1 = Convert.ToInt32(sr.ReadLine());
+                    clvl2 = Convert.ToInt32(sr.ReadLine());
+                    clvl3 = Convert.ToInt32(sr.ReadLine());
+                    clvl4 = Convert.ToInt32(sr.ReadLine());
+                    clvl5 = Convert.ToInt32(sr.ReadLine());
+                    tlvl1 = Convert.ToInt32(sr.ReadLine());
+                    tlvl2 = Convert.ToInt32(sr.ReadLine());
+                    tlvl3 = Convert.ToInt32(sr.ReadLine());
+                    tlvl4 = Convert.ToInt32(sr.ReadLine());
+                    tlvl5 = Convert.ToInt32(sr.ReadLine());
+                }
+            }
+        }
+
+        void SaveFile(string saves_)
+        {
+            string[] stringsaves = new string[]
+            {
+                click.ToString(),
+                n.ToString(),
+                t.ToString(),
+                clvl1.ToString(),
+                clvl2.ToString(),
+                clvl3.ToString(),
+                clvl4.ToString(),
+                clvl5.ToString(),
+                tlvl1.ToString(),
+                tlvl2.ToString(),
+                tlvl3.ToString(),
+                tlvl4.ToString(),
+                tlvl5.ToString()
+            };
+            if (File.Exists(saves_))
+            {
+                File.Delete(saves_);
+            }
+            File.AppendAllLines(saves, stringsaves);
+        }
+
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            SaveFile(saves);
         }
     }
 }
