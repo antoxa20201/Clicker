@@ -176,6 +176,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Icelandic Arpeggios - DivKid.mp3" />
+    <Resource Include="Картинки\MyPictures\UI_grey_buttons_light_pressed_1.ico" />
+    <Resource Include="Картинки\MyPictures\UI_orange_buttons_light_6.ico" />
     <Resource Include="Vishnu - Patrick Patrikios.mp3" />
     <Content Include="Voices - Patrick Patrikios.mp3" />
     <Content Include="We Bubbles - Freedom Trail Studio.mp3" />

@@ -38,7 +38,7 @@ namespace Clicker
         internal MediaPlayer player = new MediaPlayer();
         public int click = 0;
         public string saves = "SavesQ";
-
+        public bool test = true;
 
         internal int sum = 0;
         internal int n = 1;
@@ -161,12 +161,23 @@ namespace Clicker
             {
                 File.Delete(saves_);
             }
-            File.AppendAllLines(saves, stringsaves);
+            if (test)
+            {
+                File.AppendAllLines(saves, stringsaves);
+            }         
         }
 
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
             SaveFile(saves);
+        }
+
+        private void savesBTN_Click(object sender, RoutedEventArgs e)
+        {
+            test = false;
+            ImageBrush IB = new ImageBrush();
+            IB.ImageSource = new BitmapImage(new Uri("UI_grey_buttons_light_pressed_1.ico", UriKind.Relative));
+            savesBTN.Background = IB;          
         }
     }
 }
