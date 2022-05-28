@@ -27,8 +27,8 @@
                 <ColumnDefinition Width="23*"/>
             </Grid.ColumnDefinitions>
             <Image Height="40" Width="40" Margin="6,6,0,4" Source="Картинки/MyPictures/release_v1.2-single_11.png"/>
-            <TextBox IsEnabled="False" Text="Урса" x:Name="c1" Height="15" Width="20" FontSize="7" Margin="5,35,3.377,0" Text="lvl1" Grid.Column="1" />
-            <TextBox IsEnabled="False"  Height="15"   Margin="5,6,10,29" Grid.Column="1" Grid.ColumnSpan="2"/>
+            <TextBox IsEnabled="False"  x:Name="c1" Height="15" Width="20" FontSize="7" Margin="5,35,3.377,0" Text="lvl1" Grid.Column="1" />
+            <TextBox IsEnabled="False" Text="Урса" Height="15"   Margin="5,6,10,29" Grid.Column="1" Grid.ColumnSpan="2"/>
             <Button x:Name="cl1" Margin="5.623,34,0,0" Click="cl1_Click" Content="10" FontSize="10" Grid.Column="2"/>
         </Grid>
         <Grid Height="50" Background="#FFF5E0C0" Margin="16,108,18,0" VerticalAlignment="Top" Grid.Column="1" >
@@ -38,8 +38,8 @@
                 <ColumnDefinition Width="15*"/>
             </Grid.ColumnDefinitions>
             <Image Height="40" Width="40" Margin="6,6,2,4" Source="Картинки/MyPictures/release_v1.2-single_12.png"/>
-            <TextBox IsEnabled="False"  Text="Разрыв" x:Name="c2" Height="15" Width="20" FontSize="7" Margin="3,35,3.97,0" Text="lvl1" Grid.Column="1"/>
-             <TextBox IsEnabled="False"  Height="15" Margin="3,6,9,29" Grid.Column="1" Grid.ColumnSpan="2"/>
+            <TextBox IsEnabled="False"   x:Name="c2" Height="15" Width="20" FontSize="7" Margin="3,35,3.97,0" Text="lvl1" Grid.Column="1"/>
+             <TextBox IsEnabled="False" Text="Разрыв" Height="15" Margin="3,6,9,29" Grid.Column="1" Grid.ColumnSpan="2"/>
             <Button x:Name="cl2" Width="40" Margin="0,33,0,1" Click="cl2_Click" Content="100" FontSize="10" HorizontalAlignment="Right" Grid.Column="2" />
         </Grid>
         <Grid Height="50" Background="#FFF5E0C0" Margin="16,163,18,0" VerticalAlignment="Top" Grid.Column="1">
@@ -49,8 +49,8 @@
                 <ColumnDefinition Width="46*"/>
             </Grid.ColumnDefinitions>
             <Image Height="40" Width="40" Margin="6,6,3,4" Source="Картинки/MyPictures/release_v1.2-single_13.png"/>
-            <TextBox IsEnabled="False"  Text="Колобок" x:Name="c3" Height="15" Width="20" FontSize="7" Margin="2,35,2.785,0" Text="lvl1" Grid.Column="1"/>
-            <TextBox IsEnabled="False"  Height="15" Margin="2,6,9,29" Grid.Column="1" Grid.ColumnSpan="2"/>
+            <TextBox IsEnabled="False"   x:Name="c3" Height="15" Width="20" FontSize="7" Margin="2,35,2.785,0" Text="lvl1" Grid.Column="1"/>
+            <TextBox IsEnabled="False" Text="Колобок" Height="15" Margin="2,6,9,29" Grid.Column="1" Grid.ColumnSpan="2"/>
             <Button x:Name="cl3" Margin="6.215,35,0,-1" Click="cl3_Click" Content="500" FontSize="10" Grid.Column="2"/>
         </Grid>
         <Grid Height="50" Background="#FFF5E0C0" Margin="16,218,18,0" VerticalAlignment="Top" Grid.Column="1" >
@@ -82,8 +82,8 @@
                 <ColumnDefinition Width="44*"/>
             </Grid.ColumnDefinitions>
             <Image Height="40" Width="40" Margin="6,6,3,4" Source="Картинки/MyPictures/release_v1.2-single_10.png"/>
-            <TextBox IsEnabled="False"  Text="Призрак" x:Name="t1" Height="15" Width="20" Margin="2,35,5.011,0" FontSize="7" Text="lvl1" Grid.Column="1"/>
-            <TextBox IsEnabled="False"  Height="15" Margin="2,6,10,29" Grid.Column="1" Grid.ColumnSpan="2"/>
+            <TextBox IsEnabled="False"   x:Name="t1" Height="15" Width="20" Margin="2,35,5.011,0" FontSize="7" Text="lvl1" Grid.Column="1"/>
+            <TextBox IsEnabled="False" Text="Призрак" Height="15" Margin="2,6,10,29" Grid.Column="1" Grid.ColumnSpan="2"/>
             <Button x:Name="tl1" Margin="3.989,34,0,0" Click="tl1_Click" Content="10" FontSize="10" Grid.Column="2"/>
         </Grid>
         <Grid Height="50" Background="#FFF5E0C0" Margin="15,108,10,0" VerticalAlignment="Top" Grid.Column="2" >
@@ -93,8 +93,8 @@
                 <ColumnDefinition Width="43*"/>
             </Grid.ColumnDefinitions>
             <Image Height="40" Width="40" Margin="6,6,2,4" Source="Картинки/MyPictures/release_v1.2-single_6.png"/>
-            <TextBox IsEnabled="False"  Text="Ледяной взрыв" x:Name="t2" Height="15" Width="20" Margin="3,35,5.603,0" FontSize="7" Text="lvl1" Grid.Column="1"/>
-            <TextBox IsEnabled="False"  Height="15" Margin="3,6,9,29" Grid.Column="1" Grid.ColumnSpan="2"/>
+            <TextBox IsEnabled="False"   x:Name="t2" Height="15" Width="20" Margin="3,35,5.603,0" FontSize="7" Text="lvl1" Grid.Column="1"/>
+            <TextBox IsEnabled="False" Text="Ледяной взрыв" Height="15" Margin="3,6,9,29" Grid.Column="1" Grid.ColumnSpan="2"/>
             <Button x:Name="tl2" Margin="3.397,35,0,-1" Click="tl2_Click" Cursor="" Content="100" FontSize="10" Grid.Column="2"/>
         </Grid>
         <Grid Height="50" Background="#FFF5E0C0" Margin="15,163,10,0" VerticalAlignment="Top" Grid.Column="2" >
@@ -104,8 +104,8 @@
                 <ColumnDefinition Width="15*"/>
             </Grid.ColumnDefinitions>
             <Image Height="40" Width="40" Margin="6,6,2,4" Source="Картинки/MyPictures/release_v1.2-single_7.png"/>
-            <TextBox IsEnabled="False"  Text="Ледяной щит" x:Name="t3" Height="15" Width="20" Margin="3,35,4.418,0" FontSize="7" Text="lvl1" Grid.Column="1"/>
-            <TextBox IsEnabled="False"  Height="15" Margin="3,6,9,29" Grid.Column="1" Grid.ColumnSpan="2"/>
+            <TextBox IsEnabled="False"   x:Name="t3" Height="15" Width="20" Margin="3,35,4.418,0" FontSize="7" Text="lvl1" Grid.Column="1"/>
+            <TextBox IsEnabled="False" Text="Ледяной щит" Height="15" Margin="3,6,9,29" Grid.Column="1" Grid.ColumnSpan="2"/>
             <Button x:Name="tl3" Margin="4.582,35,0,-1" Click="tl3_Click" Content="500" FontSize="10" Grid.Column="2"/>
         </Grid>
         <Grid Height="50" Background="#FFF5E0C0" Margin="15,218,10,0" VerticalAlignment="Top" Grid.Column="2" >
