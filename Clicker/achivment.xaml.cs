@@ -26,12 +26,12 @@ namespace Clicker
 
         private void ach_loaded (object sender, RoutedEventArgs e)
         {
-            nm1.Text = "Начинающий" + "\n" + "пекарь";
-            nm2.Text = "Опытный" + "\n" + "пекарь";
-            nm3.Text = "Мастер" + "\n" + "пекарь";
-            nm4.Text = "Бог" + "\n" + "печенья";
+            nm1.Text = "Начинающий" + "\n" + "алхимик";
+            nm2.Text = "Опытный" + "\n" + "алхимик";
+            nm3.Text = "Мастер" + "\n" + "алхимик";
+            nm4.Text = "Бог" + "\n" + "алхимии";
             nm5.Text = "Супер" + "\n" + "Клик";
-            nm6.Text = "Ленивый" + "\n" + "Пекарь";
+            nm6.Text = "Ленивый" + "\n" + "алхимикрь";
             nm7.Text = "Плотный" + "\n" + "закуп";
             nm8.Text = "Начало";
 
@@ -75,7 +75,7 @@ namespace Clicker
         {
             achivment1 aboba = new achivment1();
             aboba.Title = "Начинающий пекарь";
-            aboba.info.Text = "Собрать 10000 печенья";
+            aboba.info.Text = "Собрать 10000 грибов";
             aboba.Show();
         }
 
@@ -83,7 +83,7 @@ namespace Clicker
         {
             achivment1 aboba = new achivment1();
             aboba.Title = "Опытный пекарь";
-            aboba.info.Text = "Собрать в сумме 100000";
+            aboba.info.Text = "Собрать в сумме 100000 грибов";
             aboba.Show();
         }
 
@@ -91,7 +91,7 @@ namespace Clicker
         {
             achivment1 aboba = new achivment1();
             aboba.Title = "Пекарь мастер";
-            aboba.info.Text = "Собрать в сумме 500000 печенья";
+            aboba.info.Text = "Собрать в сумме 500000 грибов";
             aboba.Show();
         }
 
@@ -99,7 +99,7 @@ namespace Clicker
         {
             achivment1 aboba = new achivment1();
             aboba.Title = "Бог печенья";
-            aboba.info.Text = "Собрать в сумме 1000000 печенья";
+            aboba.info.Text = "Собрать в сумме 1000000 грибов";
             aboba.Show();
         }
 
@@ -131,7 +131,7 @@ namespace Clicker
         {
             achivment1 aboba = new achivment1();
             aboba.Title = "Секретная";
-            aboba.info.Text = "Получить первую печеньку";
+            aboba.info.Text = "Получить первый гриб";
             aboba.Show();
         }
     }

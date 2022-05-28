@@ -176,6 +176,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Icelandic Arpeggios - DivKid.mp3" />
+    <Resource Include="Картинки\fon\GUI.png" />
     <Resource Include="Картинки\achivment\Idle %2832x32%29.png" />
     <Resource Include="Картинки\achivment\Hit.png" />
     <Resource Include="Картинки\achivment\rpg_icons_v1.png" />
