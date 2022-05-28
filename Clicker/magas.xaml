@@ -9,7 +9,7 @@
     <Grid Background="White">
         
         <Button Margin="68,33,13,5" Height="20"  />
-        <TextBox Margin="55,7,10,35" Text="Название покупки" FontSize="10"/>
+        <TextBox Margin="55,7,10,35" Text="Название покупки" FontSize="10" IsEnabled="False"/>
         <Image Margin="5,10,110,9"/>
 
     </Grid>

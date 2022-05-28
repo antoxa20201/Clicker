@@ -6,7 +6,7 @@
         WindowStartupLocation="CenterScreen"
         xmlns:local="clr-namespace:Clicker"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="812">
+        Title="MainWindow" Height="450" Width="812" Loaded="Window_Loaded" Closing="Window_Closing">
     <Grid>
         <Grid.Background>
             <ImageBrush ImageSource="Картинки/MyPictures/parallax-demon-woods-bg.jpg"/>
@@ -28,7 +28,7 @@
                     <ImageBrush ImageSource="Картинки/MyPictures/UI_orange_buttons_light_3.ico"/>
                 </Button.Background>
             </Button>
-            <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="25" Height="25">
+            <Button x:Name="music" Content="" HorizontalAlignment="Left" VerticalAlignment="Stretch" Width="25" Click="music_Click">
                 <Button.Background>
                     <ImageBrush ImageSource="Картинки/MyPictures/UI_orange_buttons_light_5.ico"/>
                 </Button.Background>

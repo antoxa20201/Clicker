@@ -34,39 +34,38 @@ namespace Clicker
             nm6.Text = "Ленивый" + "\n" + "Пекарь";
             nm7.Text = "Плотный" + "\n" + "закуп";
             nm8.Text = "Начало";
-            
-            //if (((MainWindow)Application.Current.MainWindow).sum >= 10000)
-            //{
-            //    zap1.Visibility = Visibility.Hidden;
-            //}
-            //if (((MainWindow)Application.Current.MainWindow).sum >= 100000)
-           // {
-           //     zap2.Visibility = Visibility.Hidden;
-           // }
-           // if (((MainWindow)Application.Current.MainWindow).sum >= 500000)
-           // {
-           //     zap3.Visibility = Visibility.Hidden;
-           // }
-           // if (((MainWindow)Application.Current.MainWindow).sum >= 1000000)
-           // {
-           //     zap4.Visibility = Visibility.Hidden;
-           // }
-           // if (((MainWindow)Application.Current.MainWindow).clvl5 >= 1)
-           // {
-           //     zap5.Visibility = Visibility.Hidden;
-           // }
-           // if (((MainWindow)Application.Current.MainWindow).tlvl5 >= 1)
-           // {
-           //     zap6.Visibility = Visibility.Hidden;
-           // }
-           // if (((MainWindow)Application.Current.MainWindow).clvl1 >= 100)
-           // {
-           //     zap7.Visibility = Visibility.Hidden;
-           // }
-           // if (((MainWindow)Application.Current.MainWindow).sum >= 1)
-           // {
-            //    zap8.Visibility = Visibility.Hidden;
-           // }
+            /*if (((MainWindow)Application.Current.MainWindow).sum >= 10000)
+            {
+                zap1.Visibility = Visibility.Hidden;
+            }
+            if (((MainWindow)Application.Current.MainWindow).sum >= 100000)
+            {
+                zap2.Visibility = Visibility.Hidden;
+            }
+            if (((MainWindow)Application.Current.MainWindow).sum >= 500000)
+            {
+                zap3.Visibility = Visibility.Hidden;
+            }
+            if (((MainWindow)Application.Current.MainWindow).sum >= 1000000)
+            {
+                zap4.Visibility = Visibility.Hidden;
+            }
+            if (((MainWindow)Application.Current.MainWindow).clvl5 >= 1)
+            {
+                zap5.Visibility = Visibility.Hidden;
+            }
+            if (((MainWindow)Application.Current.MainWindow).tlvl5 >= 1)
+            {
+                zap6.Visibility = Visibility.Hidden;
+            }
+            if (((MainWindow)Application.Current.MainWindow).clvl1 >= 100)
+            {
+                zap7.Visibility = Visibility.Hidden;
+            }
+            if (((MainWindow)Application.Current.MainWindow).sum >= 1)
+            {
+                zap8.Visibility = Visibility.Hidden;
+            }*/
 
         }
         private void ach1_Click(object sender, RoutedEventArgs e)
