@@ -10,61 +10,67 @@
         Loaded="Menu_Loaded"
         >
     <Grid>
-        <Grid HorizontalAlignment="Left" Height="50" Background="Honeydew" Margin="40,17,0,0" VerticalAlignment="Top" Width="120" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="32*"/>
+            <ColumnDefinition Width="149*"/>
+            <ColumnDefinition Width="142*"/>
+            <ColumnDefinition Width="46*"/>
+        </Grid.ColumnDefinitions>
+        <Grid HorizontalAlignment="Left" Height="50" Background="Honeydew" Margin="8,17,0,0" VerticalAlignment="Top" Width="120" Grid.Column="1" >
             <Image Height="40" Width="40" Margin="2,3,70,2" Source="Картинки/MyPictures/release_v1.2-single_11.png"/>
             <TextBox x:Name="c1" Height="15" Width="20" FontSize="7" Margin="51,35,49,0" Text="lvl1" />
             <TextBox Height="15" Margin="51,6,10,29"/>
             <Button x:Name="cl1" Height="16" Width="40" Margin="80,33,0,1" Click="cl1_Click" Content="10" HorizontalAlignment="Center" FontSize="10" VerticalAlignment="Center"/>
         </Grid>
-        <Grid HorizontalAlignment="Left" Height="50" Background="Honeydew" Margin="40,72,0,0" VerticalAlignment="Top" Width="120" >
+        <Grid HorizontalAlignment="Left" Height="50" Background="Honeydew" Margin="8,72,0,0" VerticalAlignment="Top" Width="120" Grid.Column="1" >
             <Image Height="40" Width="40" Margin="2,3,70,2" Source="Картинки/MyPictures/release_v1.2-single_12.png"/>
             <TextBox x:Name="c2" Height="15" Width="20" FontSize="7" Margin="51,35,49,0" Text="lvl1"/>
             <TextBox Height="15" Margin="51,6,10,29"/>
             <Button x:Name="cl2" Height="16" Width="40" Margin="80,33,0,1" Click="cl2_Click" Content="100" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" />
         </Grid>
-        <Grid HorizontalAlignment="Left" Height="50" Background="Honeydew" Margin="40,127,0,0" VerticalAlignment="Top" Width="120">
+        <Grid HorizontalAlignment="Left" Height="50" Background="Honeydew" Margin="8,127,0,0" VerticalAlignment="Top" Width="120" Grid.Column="1">
             <Image Height="40" Width="40" Margin="2,3,70,2" Source="Картинки/MyPictures/release_v1.2-single_13.png"/>
             <TextBox x:Name="c3" Height="15" Width="20" FontSize="7" Margin="51,35,49,0" Text="lvl1"/>
             <TextBox Height="15" Margin="51,6,10,29"/>
             <Button x:Name="cl3" Height="16" Width="40" Margin="80,35,0,-1" Click="cl3_Click" Content="500" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         </Grid>
-        <Grid HorizontalAlignment="Left" Height="50" Background="Honeydew" Margin="40,182,0,0" VerticalAlignment="Top" Width="120" >
+        <Grid HorizontalAlignment="Left" Height="50" Background="Honeydew" Margin="8,182,0,0" VerticalAlignment="Top" Width="120" Grid.Column="1" >
             <Image Height="40" Width="40" Margin="2,3,70,2" Source="Картинки/MyPictures/release_v1.2-single_14.png"/>
             <TextBox Height="15" Margin="51,6,10,29"/>
             <TextBox x:Name="c4" Height="15" Width="20" FontSize="7" Margin="51,35,49,0" Text="lvl0"/>
             <Button x:Name="cl4" Height="16" Width="40" Margin="80,35,0,-1" Click="cl4_Click" Content="1000" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         </Grid>
-        <Grid HorizontalAlignment="Left" Height="50" Background="Honeydew" Margin="40,237,0,0" VerticalAlignment="Top" Width="120" >
+        <Grid HorizontalAlignment="Left" Height="50" Background="Honeydew" Margin="8,237,0,0" VerticalAlignment="Top" Width="120" Grid.Column="1" >
             <Image Height="40" Width="40" Margin="2,3,70,2" Source="Картинки/MyPictures/release_v1.2-single_15.png"/>
             <TextBox Height="15" Margin="51,6,10,29"/>
             <TextBox x:Name="c5" Height="15" Width="20" FontSize="7" Margin="51,35,49,0" Text="lvl1"/>
             <Button x:Name="cl5" Height="16" Width="40" Margin="80,35,0,-1" Click="cl5_Click" Cursor="" Content="5000" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center" RenderTransformOrigin="1.05,0.792"/>
         </Grid>
-        <Grid HorizontalAlignment="Left" Height="50" Background="Honeydew" Margin="197,17,0,0" VerticalAlignment="Top" Width="120" >
+        <Grid HorizontalAlignment="Left" Height="50" Background="Honeydew" Margin="16,17,0,0" VerticalAlignment="Top" Width="120" Grid.Column="2" >
             <Image Height="40" Width="40" Margin="2,3,70,2" Source="Картинки/MyPictures/release_v1.2-single_10.png"/>
             <TextBox x:Name="t1" Height="15" Width="20" Margin="51,35,49,0" FontSize="7" Text="lvl1"/>
             <TextBox Height="15" Margin="51,6,10,29"/>
             <Button x:Name="tl1" Height="16" Width="40" Margin="80,34,0,0" Click="tl1_Click" Content="10" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         </Grid>
-        <Grid HorizontalAlignment="Left" Height="50" Background="Honeydew" Margin="197,72,0,0" VerticalAlignment="Top" Width="120" >
+        <Grid HorizontalAlignment="Left" Height="50" Background="Honeydew" Margin="16,72,0,0" VerticalAlignment="Top" Width="120" Grid.Column="2" >
             <Image Height="40" Width="40" Margin="2,3,70,2" Source="Картинки/MyPictures/release_v1.2-single_6.png"/>
             <TextBox x:Name="t2" Height="15" Width="20" Margin="51,35,49,0" FontSize="7" Text="lvl1"/>
             <TextBox Height="15" Margin="51,6,10,29"/>
             <Button x:Name="tl2" Height="16" Width="40" Margin="80,35,0,-1" Click="tl2_Click" Cursor="" Content="100" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         </Grid>
-        <Grid HorizontalAlignment="Left" Height="50" Background="Honeydew" Margin="197,127,0,0" VerticalAlignment="Top" Width="120" >
+        <Grid HorizontalAlignment="Left" Height="50" Background="Honeydew" Margin="16,127,0,0" VerticalAlignment="Top" Width="120" Grid.Column="2" >
             <Image Height="40" Width="40" Margin="2,3,70,2" Source="Картинки/MyPictures/release_v1.2-single_7.png"/>
             <TextBox x:Name="t3" Height="15" Width="20" Margin="51,35,49,0" FontSize="7" Text="lvl1"/>
             <TextBox Height="15" Margin="51,6,10,29"/>
             <Button x:Name="tl3" Height="16" Width="40" Margin="80,33,0,1" Click="tl3_Click" Content="500" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         </Grid>
-        <Grid HorizontalAlignment="Left" Height="50" Background="Honeydew" Margin="197,182,0,0" VerticalAlignment="Top" Width="120" >
+        <Grid HorizontalAlignment="Left" Height="50" Background="Honeydew" Margin="16,182,0,0" VerticalAlignment="Top" Width="120" Grid.Column="2" >
             <Image Height="40" Width="40" Margin="2,3,70,2" Source="Картинки/MyPictures/release_v1.2-single_8.png"/>
             <TextBox Height="15" Margin="51,6,10,29"/>
             <TextBox x:Name="t4" Height="15" Width="20" Margin="51,35,49,0" FontSize="7" Text="lvl0"/>
             <Button x:Name="tl4" Height="16" Width="40" Margin="80,35,0,-1" Click="tl4_Click" Content="1000" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         </Grid>
-        <Grid HorizontalAlignment="Left" Height="50" Background="Honeydew" Margin="197,237,0,0" VerticalAlignment="Top" Width="120" >
+        <Grid HorizontalAlignment="Left" Height="50" Background="Honeydew" Margin="16,237,0,0" VerticalAlignment="Top" Width="120" Grid.Column="2" >
             <Image Height="40" Width="40" Margin="2,3,70,2" Source="Картинки/MyPictures/release_v1.2-single_9.png"/>
             <TextBox Height="15" Margin="51,6,10,29"/>
             <TextBox x:Name="t5" Height="15" Width="20" Margin="51,35,49,0" Text="lvl1" FontSize="7"/>

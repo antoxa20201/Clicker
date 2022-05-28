@@ -7,9 +7,9 @@
         mc:Ignorable="d"
         Title="Settings" Height="135.391" Width="251.87" Loaded="Window_Loaded">
     <Grid>
-        <Slider x:Name="slid" Margin="0,0,46,18" ValueChanged="Slider_ValueChanged" Maximum="1" Height="18" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="188"/>
-        <CheckBox Content="Stop" HorizontalAlignment="Left" Margin="10,22,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked"/>
-        <Button Content="Next Track" HorizontalAlignment="Left" Margin="122,22,0,0" VerticalAlignment="Top" Width="76" Click="Button_Click"/>
+        <Slider x:Name="slid" Margin="17,0,39,18" ValueChanged="Slider_ValueChanged" Maximum="1" Height="18" VerticalAlignment="Bottom"/>
+        <CheckBox Content="Stop" Margin="10,22,190,67" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked"/>
+        <Button Content="Next Track" Margin="122,22,46,62" Click="Button_Click"/>
 
     </Grid>
 </Window>

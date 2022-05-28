@@ -11,12 +11,7 @@
         <Grid.Background>
             <ImageBrush ImageSource="Картинки/MyPictures/parallax-demon-woods-bg.jpg"/>
         </Grid.Background>
-        <TextBlock x:Name="click_Counter" Margin="312,54,352,343" TextWrapping="Wrap" Text="0" TextAlignment="Center" Foreground="White" />
-        <Ellipse Margin="312,140,352,139" Stroke="White" MouseDown="Ellipse_MouseDown">
-            <Ellipse.Fill>
-                <ImageBrush ImageSource="Картинки/png-transparent-infographic-chart-food-cookie-infographic-3d-computer-graphics-brown.png"/>
-            </Ellipse.Fill>
-        </Ellipse>
+        <TextBlock x:Name="click_Counter" Margin="0,0,352,343" TextWrapping="Wrap" Text="0" TextAlignment="Center" Foreground="White" HorizontalAlignment="Right" Width="140" Height="22" VerticalAlignment="Bottom" />
         <ToolBar HorizontalAlignment="Left" Height="30" Margin="10,10,0,0" VerticalAlignment="Top" Width="126">
             <Button x:Name="openmenu1" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="25" Height="25" Click="openmenu_Click">
                 <Button.Background>
@@ -39,5 +34,7 @@
                 </Button.Background>
             </Button>
         </ToolBar>
+        <Image Margin="284,155,318,102" MouseDown="Ellipse_MouseDown" Source="Картинки/achivment/Idle (32x32).png" Stretch="Fill"/>
+        <Image Margin="0,0,492,343" Source="Картинки/achivment/Hit.png" Stretch="Fill" HorizontalAlignment="Right" Width="40" Height="30" VerticalAlignment="Bottom"/>
     </Grid>
 </Window>
