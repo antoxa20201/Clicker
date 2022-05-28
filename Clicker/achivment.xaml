@@ -13,41 +13,49 @@
             <Image Margin="19,43,21,10"  Height="80" Width="80" />
             <TextBox Margin="5,3,5,98" x:Name="nm1" FontSize="10"/>
             <Button x:Name="ach1" Opacity="0" Click="ach1_Click"/>
+            <Image Height="133" Width="120" x:Name="zap1"/>
         </Grid>
         <Grid HorizontalAlignment="Left" Height="133" Margin="160,10,0,0" VerticalAlignment="Top" Width="120" Background="Honeydew" >
             <Image Margin="19,43,21,10"  Height="80" Width="80"/>
             <TextBox Margin="5,3,5,98" x:Name="nm2" FontSize="10"/>
             <Button x:Name="ach2" Opacity="0" Click="ach2_Click"/>
+            <Image Height="133" Width="120" x:Name="zap2"/>
         </Grid>
         <Grid HorizontalAlignment="Left" Height="133" Margin="304,10,0,0" VerticalAlignment="Top" Width="120" Background="Honeydew" >
             <Image Margin="19,43,21,10"  Height="80" Width="80"/>
             <TextBox Margin="5,3,5,98" x:Name="nm3" FontSize="10"/>
             <Button x:Name="ach3" Opacity="0" Click="ach3_Click"/>
+            <Image Height="133" Width="120" x:Name="zap3"/>
         </Grid>
         <Grid HorizontalAlignment="Left" Height="133" Margin="448,10,0,0" VerticalAlignment="Top" Width="120" Background="Honeydew" >
             <Image Margin="19,43,21,10"  Height="80" Width="80"/>
             <TextBox Margin="5,3,5,98" x:Name="nm4" FontSize="10"/>
             <Button x:Name="ach4" Opacity="0" Click="ach4Click"/>
+            <Image Height="133" Width="120" x:Name="zap4"/>
         </Grid>
         <Grid HorizontalAlignment="Left" Height="133" Margin="22,160,0,0" VerticalAlignment="Top" Width="120" Background="Honeydew" >
             <Image Margin="19,43,21,10"  Height="80" Width="80"/>
             <TextBox Margin="5,3,5,98" x:Name="nm5" FontSize="10"/>
             <Button x:Name="ach5" Opacity="0" Click="ach5_Click"/>
+            <Image Height="133" Width="120" x:Name="zap5"/>
         </Grid>
         <Grid HorizontalAlignment="Left" Height="133" Margin="160,160,0,0" VerticalAlignment="Top" Width="120" Background="Honeydew" >
             <Image Margin="19,43,21,10"  Height="80" Width="80"/>
             <TextBox Margin="5,3,5,98" x:Name="nm6" FontSize="10"/>
             <Button x:Name="ach6" Opacity="0" Click="ach6_Click"/>
+            <Image Height="133" Width="120" x:Name="zap6"/>
         </Grid>
         <Grid HorizontalAlignment="Left" Height="133" Margin="304,160,0,0" VerticalAlignment="Top" Width="120" Background="Honeydew" >
             <Image Margin="19,43,21,10"  Height="80" Width="80"/>
             <TextBox Margin="5,3,5,98" x:Name="nm7" FontSize="10"/>
             <Button x:Name="ach7" Opacity="0" Click="ach7_Click"/>
+            <Image Height="133" Width="120" x:Name="zap7"/>
         </Grid>
         <Grid HorizontalAlignment="Left" Height="133" Margin="448,160,0,0" VerticalAlignment="Top" Width="120" Background="Honeydew" >
             <Image Margin="19,43,21,10"  Height="80" Width="80"/>
             <TextBox Margin="5,3,5,98" x:Name="nm8" FontSize="10"/>
             <Button x:Name="ach8" Opacity="0" Click="ach8_Click"/>
+            <Image Height="133" Width="120" x:Name="zap8"/>
         </Grid>
         
 

@@ -11,7 +11,7 @@
         <Grid.Background>
             <ImageBrush ImageSource="Картинки/MyPictures/parallax-demon-woods-bg.jpg"/>
         </Grid.Background>
-        <TextBlock x:Name="click_Counter" Margin="301,79,325,318" TextWrapping="Wrap" Text="0" TextAlignment="Center"/>
+        <TextBlock x:Name="click_Counter" Margin="312,54,352,343" TextWrapping="Wrap" Text="0" TextAlignment="Center" Foreground="White" />
         <Ellipse Margin="312,140,352,139" Stroke="White" MouseDown="Ellipse_MouseDown">
             <Ellipse.Fill>
                 <ImageBrush ImageSource="Картинки/png-transparent-infographic-chart-food-cookie-infographic-3d-computer-graphics-brown.png"/>
